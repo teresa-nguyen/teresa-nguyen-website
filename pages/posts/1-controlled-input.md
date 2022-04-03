@@ -1,6 +1,6 @@
 ---
 title: Learning About Controlled Inputs in React
-date: 2022/4/2
+date: 2022/4/02
 description: Understanding controlled inputs and why we should use them.
 tag: react
 author: Teresa
@@ -15,22 +15,21 @@ Controlled input solves this by making React act as our source of truth.
 The value of the input will be set by the value of the React state, and any update on the input by the user will trigger setState to change the React state.
 
 ```jsx
-import { useState } from 'react';
+import { useState } from 'react'
 
 function MyInput() {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState('')
   const onChange = (event) => {
-    setValue(event.target.value);
-  };
+    setValue(event.target.value)
+  }
 
   return (
     <>
       <div>My input value: {value}</div>
       <input value={value} onChange={onChange} />
     </>
-  );
+  )
 }
 ```
-
 
 An input form element whose value is controlled by React in this way is called a "controlled component".

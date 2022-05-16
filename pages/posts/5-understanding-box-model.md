@@ -10,7 +10,7 @@ author: Teresa
 
 CSS is hard! What will help you with CSS is understanding the Box Model. You can think of the Box Model as a box that wraps around every HTML content.
 
-![Box Model](https://miro.medium.com/max/816/1*sKnLrT1TtqWDZg7GWoBCow.png))
+![Box Model](https://miro.medium.com/max/816/1*sKnLrT1TtqWDZg7GWoBCow.png)
 
 The box consists of:
 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Teresa Nguyen]]></title>
+        <description><![CDATA[Teresa Nguyen]]></description>
+        <link>https://yoursite.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 08 Jun 2022 16:34:09 GMT</lastBuildDate>
+        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Learning About Controlled Inputs in React]]></title>
+            <description><![CDATA[Understanding controlled inputs and why we should use them.]]></description>
+            <link>/posts/1-controlled-input</link>
+            <guid isPermaLink="true">/posts/1-controlled-input</guid>
+            <category><![CDATA[react]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 02 Apr 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Copy an Object in JavaScript]]></title>
+            <description><![CDATA[Learn the different ways to copy an object in JavaScript.]]></description>
+            <link>/posts/3-copying-object</link>
+            <guid isPermaLink="true">/posts/3-copying-object</guid>
+            <category><![CDATA[javascript]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 16 Apr 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[All the Different Ways to Go Through a List in JavaScript]]></title>
+            <description><![CDATA[Understanding all the different ways to go through a list in JavaScript.]]></description>
+            <link>/posts/2-each</link>
+            <guid isPermaLink="true">/posts/2-each</guid>
+            <category><![CDATA[javascript]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 09 Apr 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Equality in JavaScript]]></title>
+            <description><![CDATA[Learn the difference between '==' and '===' in JavaScript.]]></description>
+            <link>/posts/4-understanding-equality-in-js</link>
+            <guid isPermaLink="true">/posts/4-understanding-equality-in-js</guid>
+            <category><![CDATA[javascript]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 23 Apr 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Understanding the Box Model]]></title>
+            <description><![CDATA[Learn about Padding, Border, and Margin in the CSS box model.]]></description>
+            <link>/posts/5-understanding-box-model</link>
+            <guid isPermaLink="true">/posts/5-understanding-box-model</guid>
+            <category><![CDATA[css]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 30 Apr 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Helpful Resources for Flexbox]]></title>
+            <description><![CDATA[Some valuable resources for understanding Flexbox.]]></description>
+            <link>/posts/6-flexbox</link>
+            <guid isPermaLink="true">/posts/6-flexbox</guid>
+            <category><![CDATA[css]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 07 May 2022 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Style in React]]></title>
+            <description><![CDATA[Understanding the className and style properties in React.]]></description>
+            <link>/posts/7-style-in-react</link>
+            <guid isPermaLink="true">/posts/7-style-in-react</guid>
+            <category><![CDATA[css,react]]></category>
+            <dc:creator><![CDATA[Teresa]]></dc:creator>
+            <pubDate>Sat, 14 May 2022 07:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

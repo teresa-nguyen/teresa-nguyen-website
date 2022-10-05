@@ -4,4 +4,125 @@ title: About
 date: 2022-04-02
 ---
 
+import { Carousel } from '@mantine/carousel'
+import { Card, Image, Modal, UnstyledButton } from '@mantine/core'
+import { useState } from 'react'
+
+export const ClickableImage = ({ src, alt }) => {
+  const [opened, setOpened] = useState(false)
+  return (
+    <>
+      <Modal opened={opened} onClose={() => setOpened(false)} size={800}>
+        <Image src={src} alt={alt} />
+      </Modal>
+      <UnstyledButton onClick={() => setOpened(true)}>
+        <Image src={src} alt={alt} fit="scale-down" height={200} />
+      </UnstyledButton>
+    </>
+  )
+}
+
 # Teresa Nguyen
+
+<p
+  style={{ margin: 0, fontStyle: 'italic' }}
+  dangerouslySetInnerHTML={{ __html: 'Frontend and JavaScript Enthusiast' }}
+/>
+
+## About
+
+Hi! My name is Teresa, and I am a Laboratory Scientist and a Frontend and JavaScript enthusiast on the side. You can check out some of my work below or my blogs of my learnings so far.
+
+## Projects
+
+### Meetings
+
+_A video conference application built with React, webRTC, socketIO, and nodeJS._<br/>
+[Github](https://github.com/teresa-nguyen/webrtc-meeting) / [Live App](https://teresa-meeting.herokuapp.com/)
+
+<Carousel
+  slideSize="50%"
+  breakpoints={[{ maxWidth: 'sm', slideSize: '100%', slideGap: 2 }]}
+  slideGap="xl"
+  align="start"
+  slidesToScroll={2}
+>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="meeting-image-1.png"
+          alt="Screenshot of meeting application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="meeting-image-2.png"
+          alt="Screenshot of meeting application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="meeting-image-3.png"
+          alt="Screenshot of meeting application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+</Carousel>
+
+### Social Search
+
+_Quickly search Reddit and Youtube. Built with React and NextJS._<br/>
+[Github](https://github.com/teresa-nguyen/social-search-v2) / [Live App](https://social-search-v2.herokuapp.com/)
+
+<Carousel
+  slideSize="50%"
+  breakpoints={[{ maxWidth: 'sm', slideSize: '100%', slideGap: 2 }]}
+  slideGap="xl"
+  align="start"
+  slidesToScroll={2}
+>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="social-search-image-1.png"
+          alt="Screenshot of social search application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="social-search-image-2.png"
+          alt="Screenshot of social search application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+  <Carousel.Slide>
+    <Card withBorder>
+      <Card.Section>
+        <ClickableImage
+          src="social-search-image-3.png"
+          alt="Screenshot of social search application"
+        />
+      </Card.Section>
+    </Card>
+  </Carousel.Slide>
+</Carousel>
+
+### Others
+
+[Tic Tac Toe](https://github.com/teresa-nguyen/tic-tac-toe) / [Weather App](https://github.com/teresa-nguyen/weather-app) / [Todo List](https://github.com/teresa-nguyen/todo-list) / [Rock Paper Scissors](https://github.com/teresa-nguyen/rock-paper-scissors)
